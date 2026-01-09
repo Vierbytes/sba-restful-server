@@ -122,14 +122,3 @@ The API includes error handling for:
 - API connection failures (returns 500 Internal Server Error)
 - Invalid IMDb IDs or movie titles (handled by OMDb API response)
 
-## Technologies Used
-
-- **Express.js** - Web framework for Node.js
-- **Axios** - HTTP client for making API requests
-- **dotenv** - Environment variable management
-
-## Notes
-
-- Make sure to keep your API key secure and never commit the `.env` file to version control
-- The OMDb free tier has a limit of 1,000 requests per day
-- All routes are prefixed with `/api`
